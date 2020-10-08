@@ -165,7 +165,6 @@ else
         RESULT=$?
     fi
 fi
-
 if [[ $CLI != "" ]]; then
     if [[ $RESULT -ne 0 && $STRICT -eq 1 ]]; then
         echoerr "$cmdname: strict mode, refusing to execute subprocess"
